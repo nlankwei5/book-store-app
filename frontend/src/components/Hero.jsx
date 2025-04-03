@@ -1,8 +1,13 @@
 import React from 'react'
+import heroImg from '../assets/banner-hero.jpg'
 
 const Hero = () => {
   return (
-    <div>Hero</div>
+    <div className='md:max-w-full'>
+      <img src={heroImg} alt="" srcset="" />
+
+
+    </div>
   )
 }
 

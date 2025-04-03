@@ -4,6 +4,7 @@ import ProductDetails from './pages/ProductDetails'
 import {Routes, Route} from "react-router-dom"
 import Home from './pages/Home'
 import Navbar from './components/Navbar'
+import Checkout from './pages/Checkout'
 import Footer from './components/Footer'
 
 function App() {
