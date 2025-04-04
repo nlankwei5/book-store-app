@@ -13,7 +13,7 @@ return (
         <div className='container mx-auto flex flex-wrap item-center text-white font-Epilogue py-4 -px-2'>
             <Link to='/' className='text-3xl px-3'>Lanks Library</Link>
             <div>
-                <ul className=' hidden md:text-xl md:gap-6 md:flex md:items-center py-2 px-6'>
+                <ul className=' hidden md:text-[18px] md:gap-6 md:flex md:items-center py-2 px-6'>
                     <li>
                         <Link to='/'>Home</Link>
                     </li>
@@ -22,6 +22,9 @@ return (
                     </li>
                     <li>
                         <Link to='/'>FAQs</Link>
+                    </li>
+                    <li>
+                        <Link to='/'>Contact</Link>
                     </li>
                 </ul>
             </div>
